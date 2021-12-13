@@ -1,0 +1,170 @@
+
+@media (min-width: 1400px) {
+.container, 
+.container-lg, 
+.container-md, 
+.container-sm, 
+.container-xl, 
+.container-xxl {
+   
+	max-width: 1064px;
+}
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+	border-radius: 12px;
+	min-height: 52px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.header-one {
+	position: relative;
+	height: 529px;
+	background: url('../img/Hero\ \(1\).jpg') center center/cover no-repeat;
+	padding: 35px 0 135px 0;
+}
+
+.header-one .fix {
+	position: fixed;
+	/* min-height: 84px; */
+	top: 32px; 
+	background: #FFFFFF;
+	border: 1px solid #E6E9EF;
+	padding: 0 24px;
+	border-radius: 22px;
+	width: 1037px;		
+	flex-direction: row;
+	
+}
+.logo-img {
+	max-width: 114;
+	max-height: 25;
+}
+.nav .nav-link {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.8px;
+	color: #64748B;
+}
+.btn-outline-primary {
+	width: 78px;
+	height: 52px;
+	border: none;
+	color: #0D2344;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 8px 24px 8px 24px;
+}
+.btn .btn-primary{
+	border-radius: 12px;
+	width: 98px;
+	height: 52px;
+	}
+
+h1 {
+	margin-top: 152px;
+	text-align: center;
+	line-height: 72px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	letter-spacing: -0.8px;
+	color: #000000;
+	
+}
+h2{
+	margin-top: 26px;
+	text-align: center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.8px;
+
+	color: rgba(13, 35, 68, 0.8);		
+}
+.header-one .btn-subheader {
+	margin: 0 auto;
+	display: block;
+	margin-top: 26px;
+	width: 143px;
+	height: 56px;
+	border-radius: 12px;
+	background: #1971F5;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 16px 24px;
+	
+}
+
+.youtube {
+	margin-top: 39px;		
+}
+.youtube .you-img {
+	position: static;
+	width: 1037px;
+	height: 582px;
+	left: 190px;
+	top: 10px;	
+	
+}
+.timer {
+	height: 263px;
+}
+.timer .title-timer {
+	text-align: center;
+	margin-top: 59px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+	color: #000000;
+}
+
+
+
+.timer .timer-date .timer__items{
+	display: flex;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 35px;
+}
+.timer .timer-date .timer__items .timer__item {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 258px;
+	height: 163px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 70px;
+
+
+}
+ .timer .timer-date .timer__items .timer__item:not(:last-child)::after {
+	content: ':';
+	position: absolute;
+	right: -15px; 
+ }
+
+.timer__label {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 28px;
+	color: #1E293B;
+}
+ 
+
